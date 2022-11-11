@@ -1,0 +1,27 @@
+to initialise as a truffle project - truffle init
+
+- contract folder already had "migration.sol" file to track migrations of other contract.
+
+-ganache cli - npm i -D ganache-cli or npx ganache
+
+
+- to migrate on specific network :
+npx truffle migrate --network name
+
+
+- to open console : 
+npx truffle console --network name
+
+- create a script folder to interact programatically
+
+-truffle test is command for testing all files in test folder
+
+openzeppelin test framework - "npm install --save-dev @openzeppelin/test-helpers"
+
+-OpenZeppelin Test Helpers for very large number support, to check for an event being emitted and to check that a transaction reverts.
+
+link - "https://docs.openzeppelin.com/learn/writing-automated-tests"
+
+
+to connect with public test networks we need @truffle/hdwallet-provide :
+"npm install --save-dev @truffle/hdwallet-provider"
